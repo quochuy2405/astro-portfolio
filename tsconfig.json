@@ -1,0 +1,20 @@
+{
+  "extends": "astro/tsconfigs/strict",
+  "compilerOptions": {
+    "jsx": "react-jsx",
+    "jsxImportSource": "react",
+    "baseUrl": "./src",
+    "allowJs": true,
+    "paths": {
+      "@/components/*": ["components/*"],
+      "@/hooks/*": ["hooks/*"],
+      "@/mocks/*": ["mocks/*"],
+      "@/pages/*": ["pages/*"],
+      "@/layouts/*": ["layouts/*"],
+      "@/styles/*": ["styles/*"],
+      "@/animation/*": ["src/animation/*"],
+      "@/assets/*": ["src/assets/*"]
+    }
+    // "types": ["@astrojs/image/client"]
+  }
+}
