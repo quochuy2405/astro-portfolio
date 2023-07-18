@@ -1,7 +1,7 @@
 import { path } from 'animation'
 import { useState, useEffect } from 'react'
 import { motion } from 'framer-motion'
-import { BsFacebook, BsGithub, BsLinkedin } from 'react-icons/bs'
+import { BsGithub, BsLinkedin } from 'react-icons/bs'
 const textScript = [
   "I'M A SYSTEM INFORMATION ENGINEER",
   'FRONT-END DEVELOPER',
@@ -94,13 +94,13 @@ const Header = () => {
           </div>
 
           <ul className="flex gap-4 flex-1 justify-end">
-            <a href="/">
+            {/* <a href="/">
               <BsFacebook />
-            </a>
-            <a href="/about">
+            </a> */}
+            <a href="/">
               <BsGithub />
             </a>
-            <a href="/project">
+            <a href="/">
               <BsLinkedin />
             </a>
           </ul>
