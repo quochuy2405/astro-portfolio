@@ -77,10 +77,11 @@ const Project = () => {
   }
 
   return (
-    <section>
+    <section className="flex flex-col gap-2">
       <motion.h1
         variants={container}
         layoutScroll
+        id="project"
         initial="hidden"
         animate="visible"
         className="font-extrabold uppercase text-transparent text-4xl py-4 bg-clip-text bg-gradient-to-r from-purple-400 to-pink-600"
@@ -91,12 +92,120 @@ const Project = () => {
           </motion.span>
         ))}
       </motion.h1>
+      <div
+        className={clsx(
+          'min-h-[170px] h-fit gap-1 backdrop-blur-3xl cursor-pointer flex flex-col border p-4 rounded-lg text-black '
+        )}
+      >
+        <ol className="md:items-center flex flex-col-reverse md:flex-row md:justify-center flex-wrap">
+          <li className="relative mb-6 sm:mb-0 flex-1">
+            <div className="flex items-center">
+              <div className="z-10 flex items-center justify-center w-6 h-6 bg-blue-100 rounded-full ring-0 ring-white dark:bg-blue-900 sm:ring-8 dark:ring-gray-900 shrink-0">
+                <svg
+                  className="w-2.5 h-2.5 text-blue-800 dark:text-blue-300"
+                  aria-hidden="true"
+                  xmlns="http://www.w3.org/2000/svg"
+                  fill="currentColor"
+                  viewBox="0 0 20 20"
+                >
+                  <path d="M20 4a2 2 0 0 0-2-2h-2V1a1 1 0 0 0-2 0v1h-3V1a1 1 0 0 0-2 0v1H6V1a1 1 0 0 0-2 0v1H2a2 2 0 0 0-2 2v2h20V4ZM0 18a2 2 0 0 0 2 2h16a2 2 0 0 0 2-2V8H0v10Zm5-8h10a1 1 0 0 1 0 2H5a1 1 0 0 1 0-2Z" />
+                </svg>
+              </div>
+              <div className="hidden sm:flex w-full bg-gray-200 h-0.5 dark:bg-gray-700" />
+            </div>
+            <div className="mt-3 sm:pr-8">
+              <h3 className="text-lg font-semibold text-gray-900 dark:text-white">FTISU - RESEARCH TEAM</h3>
+              <time className="block mb-2 text-sm font-normal leading-none text-gray-400 dark:text-gray-500">
+                April 01, 2022
+              </time>
+              <p className="block mb-2 text-sm font-normal leading-none text-gray-400 dark:text-gray-500">
+                Position: Research member
+              </p>
+            </div>
+          </li>
+          <li className="relative mb-6 sm:mb-0 flex-1">
+            <div className="flex items-center">
+              <div className="z-10 flex items-center justify-center w-6 h-6 bg-blue-100 rounded-full ring-0 ring-white dark:bg-blue-900 sm:ring-8 dark:ring-gray-900 shrink-0">
+                <svg
+                  className="w-2.5 h-2.5 text-blue-800 dark:text-blue-300"
+                  aria-hidden="true"
+                  xmlns="http://www.w3.org/2000/svg"
+                  fill="currentColor"
+                  viewBox="0 0 20 20"
+                >
+                  <path d="M20 4a2 2 0 0 0-2-2h-2V1a1 1 0 0 0-2 0v1h-3V1a1 1 0 0 0-2 0v1H6V1a1 1 0 0 0-2 0v1H2a2 2 0 0 0-2 2v2h20V4ZM0 18a2 2 0 0 0 2 2h16a2 2 0 0 0 2-2V8H0v10Zm5-8h10a1 1 0 0 1 0 2H5a1 1 0 0 1 0-2Z" />
+                </svg>
+              </div>
+              <div className="hidden sm:flex w-full bg-gray-200 h-0.5 dark:bg-gray-700" />
+            </div>
+            <div className="mt-3 sm:pr-8">
+              <h3 className="text-lg font-semibold text-gray-900 dark:text-white">HOPPEE - SOFTWARE COMPANY</h3>
+              <time className="block mb-2 text-sm font-normal leading-none text-gray-400 dark:text-gray-500">
+                August 04, 2022
+              </time>
+              <p className="block mb-2 text-sm font-normal leading-none text-gray-400 dark:text-gray-500">
+                Position: Fresher
+              </p>
+            </div>
+          </li>
+          <li className="relative mb-6 sm:mb-0 flex-1">
+            <div className="flex items-center">
+              <div className="z-10 flex items-center justify-center w-6 h-6 bg-blue-100 rounded-full ring-0 ring-white dark:bg-blue-900 sm:ring-8 dark:ring-gray-900 shrink-0">
+                <svg
+                  className="w-2.5 h-2.5 text-blue-800 dark:text-blue-300"
+                  aria-hidden="true"
+                  xmlns="http://www.w3.org/2000/svg"
+                  fill="currentColor"
+                  viewBox="0 0 20 20"
+                >
+                  <path d="M20 4a2 2 0 0 0-2-2h-2V1a1 1 0 0 0-2 0v1h-3V1a1 1 0 0 0-2 0v1H6V1a1 1 0 0 0-2 0v1H2a2 2 0 0 0-2 2v2h20V4ZM0 18a2 2 0 0 0 2 2h16a2 2 0 0 0 2-2V8H0v10Zm5-8h10a1 1 0 0 1 0 2H5a1 1 0 0 1 0-2Z" />
+                </svg>
+              </div>
+              <div className="hidden sm:flex w-full bg-gray-200 h-0.5 dark:bg-gray-700" />
+            </div>
+            <div className="mt-3 sm:pr-8">
+              <h3 className="text-lg font-semibold text-gray-900 dark:text-white">OTOMAN X ABINBEV - SURVEY APP</h3>
+              <time className="block mb-2 text-sm font-normal leading-none text-gray-400 dark:text-gray-500">
+                March 02, 2023
+              </time>
+              <p className="block mb-2 text-sm font-normal leading-none text-gray-400 dark:text-gray-500">
+                Position: Freelance - Junior
+              </p>
+            </div>
+          </li>
+          <li className="relative mb-6 sm:mb-0 flex-1">
+            <div className="flex items-center">
+              <div className="z-10 flex items-center justify-center w-6 h-6 bg-blue-100 rounded-full ring-0 ring-white dark:bg-blue-900 sm:ring-8 dark:ring-gray-900 shrink-0">
+                <svg
+                  className="w-2.5 h-2.5 text-blue-800 dark:text-blue-300"
+                  aria-hidden="true"
+                  xmlns="http://www.w3.org/2000/svg"
+                  fill="currentColor"
+                  viewBox="0 0 20 20"
+                >
+                  <path d="M20 4a2 2 0 0 0-2-2h-2V1a1 1 0 0 0-2 0v1h-3V1a1 1 0 0 0-2 0v1H6V1a1 1 0 0 0-2 0v1H2a2 2 0 0 0-2 2v2h20V4ZM0 18a2 2 0 0 0 2 2h16a2 2 0 0 0 2-2V8H0v10Zm5-8h10a1 1 0 0 1 0 2H5a1 1 0 0 1 0-2Z" />
+                </svg>
+              </div>
+              <div className="hidden sm:flex w-full bg-gray-200 h-0.5 dark:bg-gray-700" />
+            </div>
+            <div className="mt-3 sm:pr-8">
+              <h3 className="text-lg font-semibold text-gray-900 dark:text-white">OTOMAN - SOCIAL COMPANY</h3>
+              <time className="block mb-2 text-sm font-normal leading-none text-gray-400 dark:text-gray-500">
+                July 15, 2023
+              </time>
+              <p className="block mb-2 text-sm font-normal leading-none text-gray-400 dark:text-gray-500">
+                Position: Freelance - Junior
+              </p>
+            </div>
+          </li>
+        </ol>
+      </div>
       <motion.div
         variants={container}
         layoutScroll
         initial="hidden"
         animate="visible"
-        className="grid grid-cols-2 md:grid-cols-3 grid-rows-none gap-4 h-full w-full overflow-y-auto"
+        className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 grid-rows-none gap-4 h-full w-full overflow-y-auto"
       >
         {items.map((item, index) => {
           return (
@@ -119,6 +228,7 @@ const Project = () => {
             </motion.div>
           )
         })}
+
         <AnimatePresence>
           {itemSelected && (
             <motion.div
