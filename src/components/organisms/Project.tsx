@@ -133,7 +133,7 @@ const items: IProject[] = [
   },
   {
     id: '2',
-    company: 'Ftisu teams',
+    company: '(Ftisu teams)',
     title: 'PREDICT CRYPTO PROJECT',
     position: 'Frontend & Machine Learning',
     thumbnail: '/images/survey.png',
@@ -179,7 +179,7 @@ const items: IProject[] = [
   },
   {
     id: '4',
-    company: 'Hopee - Software Company',
+    company: '(Hopee - Software Company)',
     title: 'HOMIS PROJECT',
     position: 'Frontend',
     thumbnail: '/images/survey.png',
@@ -252,7 +252,7 @@ const items: IProject[] = [
   },
   {
     id: '5',
-    company: 'Hopee - Software Company',
+    company: '(Hopee - Software Company)',
     title: 'ASTRAZENECA PROJECT',
     position: 'Frontend',
     thumbnail: '/images/survey.png',
@@ -397,7 +397,7 @@ const items: IProject[] = [
   },
   {
     id: '6',
-    company: 'Hopee - Software Company',
+    company: '(Hopee - Software Company)',
     title: 'KIDS CONNECT PROJECT',
     position: 'Frontend',
     thumbnail: '/images/survey.png',
@@ -941,7 +941,7 @@ const items: IProject[] = [
   },
   {
     id: '7',
-    company: 'Beliy Clothings',
+    company: '(Beliy Clothings)',
     title: 'BELIY STORE',
     position: 'FullStack',
     thumbnail: '/images/survey.png',
