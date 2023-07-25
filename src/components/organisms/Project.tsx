@@ -1069,16 +1069,12 @@ const Project = () => {
                   <path d="M20 4a2 2 0 0 0-2-2h-2V1a1 1 0 0 0-2 0v1h-3V1a1 1 0 0 0-2 0v1H6V1a1 1 0 0 0-2 0v1H2a2 2 0 0 0-2 2v2h20V4ZM0 18a2 2 0 0 0 2 2h16a2 2 0 0 0 2-2V8H0v10Zm5-8h10a1 1 0 0 1 0 2H5a1 1 0 0 1 0-2Z" />
                 </svg>
               </div>
-              <div className="hidden sm:flex w-full bg-gray-200 h-0.5 dark:bg-gray-700" />
+              <div className="hidden sm:flex w-full bg-gray-200 h-0.5" />
             </div>
             <div className="mt-3 sm:pr-8">
-              <h3 className="text-lg font-semibold text-gray-900 dark:text-white">FTISU - RESEARCH TEAM</h3>
-              <time className="block mb-2 text-sm font-normal leading-none text-gray-400 dark:text-gray-500">
-                April 01, 2022
-              </time>
-              <p className="block mb-2 text-sm font-normal leading-none text-gray-400 dark:text-gray-500">
-                Position: Research member
-              </p>
+              <h3 className="text-lg font-semibold text-gray-900 ">FTISU - RESEARCH TEAM</h3>
+              <time className="block mb-2 text-sm font-normal leading-none text-gray-400">April 01, 2022</time>
+              <p className="block mb-2 text-sm font-normal leading-none text-gray-400">Position: Research member</p>
             </div>
           </li>
           <li className="relative mb-6 sm:mb-0 flex-1">
@@ -1094,16 +1090,12 @@ const Project = () => {
                   <path d="M20 4a2 2 0 0 0-2-2h-2V1a1 1 0 0 0-2 0v1h-3V1a1 1 0 0 0-2 0v1H6V1a1 1 0 0 0-2 0v1H2a2 2 0 0 0-2 2v2h20V4ZM0 18a2 2 0 0 0 2 2h16a2 2 0 0 0 2-2V8H0v10Zm5-8h10a1 1 0 0 1 0 2H5a1 1 0 0 1 0-2Z" />
                 </svg>
               </div>
-              <div className="hidden sm:flex w-full bg-gray-200 h-0.5 dark:bg-gray-700" />
+              <div className="hidden sm:flex w-full bg-gray-200 h-0.5" />
             </div>
             <div className="mt-3 sm:pr-8">
-              <h3 className="text-lg font-semibold text-gray-900 dark:text-white">HOPPEE - SOFTWARE COMPANY</h3>
-              <time className="block mb-2 text-sm font-normal leading-none text-gray-400 dark:text-gray-500">
-                August 04, 2022
-              </time>
-              <p className="block mb-2 text-sm font-normal leading-none text-gray-400 dark:text-gray-500">
-                Position: Fresher
-              </p>
+              <h3 className="text-lg font-semibold text-gray-900 ">HOPPEE - SOFTWARE COMPANY</h3>
+              <time className="block mb-2 text-sm font-normal leading-none text-gray-400">August 04, 2022</time>
+              <p className="block mb-2 text-sm font-normal leading-none text-gray-400">Position: Fresher</p>
             </div>
           </li>
           <li className="relative mb-6 sm:mb-0 flex-1">
@@ -1119,16 +1111,12 @@ const Project = () => {
                   <path d="M20 4a2 2 0 0 0-2-2h-2V1a1 1 0 0 0-2 0v1h-3V1a1 1 0 0 0-2 0v1H6V1a1 1 0 0 0-2 0v1H2a2 2 0 0 0-2 2v2h20V4ZM0 18a2 2 0 0 0 2 2h16a2 2 0 0 0 2-2V8H0v10Zm5-8h10a1 1 0 0 1 0 2H5a1 1 0 0 1 0-2Z" />
                 </svg>
               </div>
-              <div className="hidden sm:flex w-full bg-gray-200 h-0.5 dark:bg-gray-700" />
+              <div className="hidden sm:flex w-full bg-gray-200 h-0.5" />
             </div>
             <div className="mt-3 sm:pr-8">
-              <h3 className="text-lg font-semibold text-gray-900 dark:text-white">OTOMAN X ABINBEV - SURVEY APP</h3>
-              <time className="block mb-2 text-sm font-normal leading-none text-gray-400 dark:text-gray-500">
-                March 02, 2023
-              </time>
-              <p className="block mb-2 text-sm font-normal leading-none text-gray-400 dark:text-gray-500">
-                Position: Freelance - Junior
-              </p>
+              <h3 className="text-lg font-semibold text-gray-900 ">OTOMAN X ABINBEV - SURVEY APP</h3>
+              <time className="block mb-2 text-sm font-normal leading-none text-gray-400">March 02, 2023</time>
+              <p className="block mb-2 text-sm font-normal leading-none text-gray-400">Position: Freelance - Junior</p>
             </div>
           </li>
           <li className="relative mb-6 sm:mb-0 flex-1">
@@ -1144,16 +1132,12 @@ const Project = () => {
                   <path d="M20 4a2 2 0 0 0-2-2h-2V1a1 1 0 0 0-2 0v1h-3V1a1 1 0 0 0-2 0v1H6V1a1 1 0 0 0-2 0v1H2a2 2 0 0 0-2 2v2h20V4ZM0 18a2 2 0 0 0 2 2h16a2 2 0 0 0 2-2V8H0v10Zm5-8h10a1 1 0 0 1 0 2H5a1 1 0 0 1 0-2Z" />
                 </svg>
               </div>
-              <div className="hidden sm:flex w-full bg-gray-200 h-0.5 dark:bg-gray-700" />
+              <div className="hidden sm:flex w-full bg-gray-200 h-0.5" />
             </div>
             <div className="mt-3 sm:pr-8">
-              <h3 className="text-lg font-semibold text-gray-900 dark:text-white">OTOMAN - SOCIAL COMPANY</h3>
-              <time className="block mb-2 text-sm font-normal leading-none text-gray-400 dark:text-gray-500">
-                July 15, 2023
-              </time>
-              <p className="block mb-2 text-sm font-normal leading-none text-gray-400 dark:text-gray-500">
-                Position: Freelance - Junior
-              </p>
+              <h3 className="text-lg font-semibold text-gray-900 ">OTOMAN - SOCIAL COMPANY</h3>
+              <time className="block mb-2 text-sm font-normal leading-none text-gray-400">July 15, 2023</time>
+              <p className="block mb-2 text-sm font-normal leading-none text-gray-400">Position: Freelance - Junior</p>
             </div>
           </li>
         </ol>
