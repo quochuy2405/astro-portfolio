@@ -100,7 +100,7 @@ const items: IProject[] = [
       </div>
     ),
     html: (
-      <div className="flex flex-col gap-4 p-4 text-md">
+      <div className="flex flex-col gap-4 p-4 text-base">
         <p>
           <b>SUMARY</b>:
           <i>
@@ -149,7 +149,7 @@ const items: IProject[] = [
       </svg>
     ),
     html: (
-      <div className="flex flex-col gap-4 p-4 text-md">
+      <div className="flex flex-col gap-4 p-4 text-base">
         <p className="text-sm">
           <b>SUMARY</b>:
           <i>
@@ -229,7 +229,7 @@ const items: IProject[] = [
       </svg>
     ),
     html: (
-      <div className="flex flex-col gap-4 p-4 text-md">
+      <div className="flex flex-col gap-4 p-4 text-base">
         <p className="text-sm">
           <b>SUMARY</b>:
           <i>
@@ -372,7 +372,7 @@ const items: IProject[] = [
       </svg>
     ),
     html: (
-      <div className="flex flex-col gap-4 p-4 text-md">
+      <div className="flex flex-col gap-4 p-4 text-base">
         <p className="text-sm">
           <b>SUMARY</b>:
           <i>
@@ -912,7 +912,7 @@ const items: IProject[] = [
       </svg>
     ),
     html: (
-      <div className="flex flex-col gap-4 p-4 text-md">
+      <div className="flex flex-col gap-4 p-4 text-base">
         <p className="text-sm">
           <b>SUMARY</b>:
           <i>
@@ -983,7 +983,7 @@ const items: IProject[] = [
       </svg>
     ),
     html: (
-      <div className="flex flex-col gap-4 p-4 text-md">
+      <div className="flex flex-col gap-4 p-4 text-base">
         <p className="text-sm">
           <b>SUMARY</b>:
           <i>
