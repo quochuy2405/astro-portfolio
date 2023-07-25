@@ -1,7 +1,7 @@
 ---
 import { Image } from "astro:assets";
 import clsx from "clsx";
-import { Project } from "../organisms";
+import { Career, Project } from "../organisms";
 import About from "../organisms/About";
 
 ---
@@ -15,7 +15,7 @@ import About from "../organisms/About";
    </div>
    <div class="flex-[2] md:ml-14 lg:ml-28 flex gap-2 flex-col">
       <div
-      class={clsx('min-h-[170px] h-fit gap-1 backdrop-blur-sm cursor-pointer flex border p-2 rounded-lg text-black'
+      class={clsx('min-h-[170px] h-fit gap-1 backdrop-blur-sm  cursor-pointer flex flex-col md:flex-row  border p-2 rounded-lg text-black'
       )}
       >
       <img src="/images/uit.png" class="w-28 h-28 object-contain"  alt="UIT"/>
@@ -32,7 +32,7 @@ import About from "../organisms/About";
       </div>
    </div>
    <div
-   class={clsx('min-h-[170px] h-fit gap-1 backdrop-blur-sm cursor-pointer flex border p-2 rounded-lg text-black'
+   class={clsx('min-h-[170px] h-fit gap-1 backdrop-blur-sm cursor-pointer flex flex-col md:flex-row border p-2 rounded-lg text-black'
    )}
    >
    <h2 class="font-extrabold text-transparent text-2xl bg-clip-text bg-gradient-to-r from-blue-500  to-gray-600">
@@ -66,7 +66,8 @@ No SQL (Firebase, MongoDB)</p>
 </div>
 <div class="m-auto md:w-[95%] lg:w-3/4">
    <Project client:load/>
-   <About client:load/>
+   <About client:load/> 
+    <Career client:load/>
 </div>
 
 
