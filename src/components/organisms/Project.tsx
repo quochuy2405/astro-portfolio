@@ -100,7 +100,7 @@ const items: IProject[] = [
       </div>
     ),
     html: (
-      <div className="flex flex-col gap-4 p-4">
+      <div className="flex flex-col gap-4 p-4 text-md">
         <p>
           <b>SUMARY</b>:
           <i>
@@ -149,8 +149,8 @@ const items: IProject[] = [
       </svg>
     ),
     html: (
-      <div className="flex flex-col gap-4 p-4">
-        <p>
+      <div className="flex flex-col gap-4 p-4 text-md">
+        <p className="text-sm">
           <b>SUMARY</b>:
           <i>
             This app is using models in artificial intelligence: Autoregressive Integrated Moving Average (ARIMA),
@@ -229,8 +229,8 @@ const items: IProject[] = [
       </svg>
     ),
     html: (
-      <div className="flex flex-col gap-4 p-4">
-        <p>
+      <div className="flex flex-col gap-4 p-4 text-md">
+        <p className="text-sm">
           <b>SUMARY</b>:
           <i>
             Joining the project on drug administration and pharmacy branch management in Japan from the beginning allows
@@ -372,8 +372,8 @@ const items: IProject[] = [
       </svg>
     ),
     html: (
-      <div className="flex flex-col gap-4 p-4">
-        <p>
+      <div className="flex flex-col gap-4 p-4 text-md">
+        <p className="text-sm">
           <b>SUMARY</b>:
           <i>
             A static website can serve as an effective platform to train users on vaccines and promote public health
@@ -912,8 +912,8 @@ const items: IProject[] = [
       </svg>
     ),
     html: (
-      <div className="flex flex-col gap-4 p-4">
-        <p>
+      <div className="flex flex-col gap-4 p-4 text-md">
+        <p className="text-sm">
           <b>SUMARY</b>:
           <i>
             This project is an innovative project aimed at providing parents in Japan with a comprehensive and secure
@@ -983,8 +983,8 @@ const items: IProject[] = [
       </svg>
     ),
     html: (
-      <div className="flex flex-col gap-4 p-4">
-        <p>
+      <div className="flex flex-col gap-4 p-4 text-md">
+        <p className="text-sm">
           <b>SUMARY</b>:
           <i>
             Beliy is an exciting startup clothing brand poised to make a significant impact on the fashion industry. As
