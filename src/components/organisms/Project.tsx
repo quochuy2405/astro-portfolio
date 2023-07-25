@@ -150,7 +150,7 @@ const items: IProject[] = [
     ),
     html: (
       <div className="flex flex-col gap-4 p-4 text-base">
-        <p className="text-sm">
+        <p>
           <b>SUMARY</b>:
           <i>
             This app is using models in artificial intelligence: Autoregressive Integrated Moving Average (ARIMA),
@@ -230,7 +230,7 @@ const items: IProject[] = [
     ),
     html: (
       <div className="flex flex-col gap-4 p-4 text-base">
-        <p className="text-sm">
+        <p>
           <b>SUMARY</b>:
           <i>
             Joining the project on drug administration and pharmacy branch management in Japan from the beginning allows
@@ -373,7 +373,7 @@ const items: IProject[] = [
     ),
     html: (
       <div className="flex flex-col gap-4 p-4 text-base">
-        <p className="text-sm">
+        <p>
           <b>SUMARY</b>:
           <i>
             A static website can serve as an effective platform to train users on vaccines and promote public health
@@ -913,7 +913,7 @@ const items: IProject[] = [
     ),
     html: (
       <div className="flex flex-col gap-4 p-4 text-base">
-        <p className="text-sm">
+        <p>
           <b>SUMARY</b>:
           <i>
             This project is an innovative project aimed at providing parents in Japan with a comprehensive and secure
@@ -984,7 +984,7 @@ const items: IProject[] = [
     ),
     html: (
       <div className="flex flex-col gap-4 p-4 text-base">
-        <p className="text-sm">
+        <p>
           <b>SUMARY</b>:
           <i>
             Beliy is an exciting startup clothing brand poised to make a significant impact on the fashion industry. As
@@ -1073,8 +1073,8 @@ const Project = () => {
             </div>
             <div className="mt-3 sm:pr-8">
               <h3 className="text-lg font-semibold text-gray-900 ">FTISU - RESEARCH TEAM</h3>
-              <time className="block mb-2 text-sm font-normal leading-none text-gray-400">April 01, 2022</time>
-              <p className="block mb-2 text-sm font-normal leading-none text-gray-400">Position: Research member</p>
+              <time className="blockfont-normal leading-none text-gray-400">April 01, 2022</time>
+              <p className="blockfont-normal leading-none text-gray-400">Position: Research member</p>
             </div>
           </li>
           <li className="relative mb-6 sm:mb-0 flex-1">
@@ -1094,8 +1094,8 @@ const Project = () => {
             </div>
             <div className="mt-3 sm:pr-8">
               <h3 className="text-lg font-semibold text-gray-900 ">HOPPEE - SOFTWARE COMPANY</h3>
-              <time className="block mb-2 text-sm font-normal leading-none text-gray-400">August 04, 2022</time>
-              <p className="block mb-2 text-sm font-normal leading-none text-gray-400">Position: Fresher</p>
+              <time className="blockfont-normal leading-none text-gray-400">August 04, 2022</time>
+              <p className="blockfont-normal leading-none text-gray-400">Position: Fresher</p>
             </div>
           </li>
           <li className="relative mb-6 sm:mb-0 flex-1">
@@ -1115,8 +1115,8 @@ const Project = () => {
             </div>
             <div className="mt-3 sm:pr-8">
               <h3 className="text-lg font-semibold text-gray-900 ">OTOMAN X ABINBEV - SURVEY APP</h3>
-              <time className="block mb-2 text-sm font-normal leading-none text-gray-400">March 02, 2023</time>
-              <p className="block mb-2 text-sm font-normal leading-none text-gray-400">Position: Freelance - Junior</p>
+              <time className="blockfont-normal leading-none text-gray-400">March 02, 2023</time>
+              <p className="blockfont-normal leading-none text-gray-400">Position: Freelance - Junior</p>
             </div>
           </li>
           <li className="relative mb-6 sm:mb-0 flex-1">
@@ -1136,8 +1136,8 @@ const Project = () => {
             </div>
             <div className="mt-3 sm:pr-8">
               <h3 className="text-lg font-semibold text-gray-900 ">OTOMAN - SOCIAL COMPANY</h3>
-              <time className="block mb-2 text-sm font-normal leading-none text-gray-400">July 15, 2023</time>
-              <p className="block mb-2 text-sm font-normal leading-none text-gray-400">Position: Freelance - Junior</p>
+              <time className="blockfont-normal leading-none text-gray-400">July 15, 2023</time>
+              <p className="blockfont-normal leading-none text-gray-400">Position: Freelance - Junior</p>
             </div>
           </li>
         </ol>
