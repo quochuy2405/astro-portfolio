@@ -1183,7 +1183,7 @@ const Project = () => {
             >
               <motion.div
                 layoutId={itemSelected.id}
-                className="w-1/2 h-1/2 bg-white rounded-lg p-3 relative"
+                className=" w-full h-full md:w-1/2 md:h-1/2 bg-white md:rounded-lg p-3 relative"
                 exit={{ opacity: 0, scale: 0 }}
               >
                 <div className="flex items-center justify-end absolute top-2 right-2 ">
