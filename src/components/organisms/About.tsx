@@ -272,7 +272,7 @@ const About = () => {
                   </g>
                 </g>
               </svg>
-              3 times to book scholarships
+            3 times won the scholarship
             </h1>
           </div>
         </motion.div>
